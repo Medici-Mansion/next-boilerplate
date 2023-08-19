@@ -14,6 +14,7 @@
     "@radix-ui/react-toast": "^1.1.4",
     "@tanstack/react-query": "^4.32.6",
     "@tanstack/react-query-devtools": "^4.32.6",
+    "@tauri-apps/api": "^1.4.0",
     "@types/node": "20.5.0",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
@@ -40,5 +41,8 @@
     "utf-8-validate": "^6.0.3",
     "zod": "^3.22.1"
   },
-  "packageManager": "yarn@3.6.2"
+  "packageManager": "yarn@3.6.2",
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.4.0"
+  }
 }
